@@ -271,10 +271,10 @@ def train(n_episodes=3000, max_t=1000, eps_start=1.0, eps_end=0.015, eps_decay=0
     return scores
 
 
-# scores = train()
+scores = train()
 # for second train use different values
-scores = train(n_episodes=3000, max_t=500, eps_start=0.7,
-               eps_end=0.015, eps_decay=0.99, lr=0.00001)
+# scores = train(n_episodes=3000, max_t=500, eps_start=0.7,
+#                eps_end=0.015, eps_decay=0.99, lr=0.00001)
 
 # plot the scores
 fig = plt.figure()

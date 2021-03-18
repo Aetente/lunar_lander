@@ -262,7 +262,8 @@ def train(n_episodes=3000, max_t=1000, eps_start=1.0, eps_end=0.015, eps_decay=0
 # not epsilon greedy
 # scores = train(n_episodes=1000, eps_start=0, eps_end=0, eps_decay=0)
 
-scores = train(n_episodes=1000)
+# scores = train(n_episodes=1000)
+scores = train()
 
 # scores = train(n_episodes=1000)
 # for second train use different values
